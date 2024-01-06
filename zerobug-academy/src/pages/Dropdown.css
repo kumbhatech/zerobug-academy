@@ -1,0 +1,42 @@
+/* Dropdown.css */
+
+.custom-scroll-box {
+  cursor: pointer;
+  margin-bottom: 10px; /* Added margin between dropdowns */
+}
+
+.dropdown-title {
+  /* Styles for dropdown title */
+  color: orange;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.custom-dropdown {
+  
+  display: block;
+  background-color: #f9f9f9; /* Background color of the dropdown */
+  border: 1px solid #ccc; /* Border color */
+  border-radius: 5px; /* Rounded corners */
+  padding: 5px;
+  margin-top: 5px;
+}
+
+.dropdown-options {
+  /* Styles for dropdown options */
+  list-style: none;
+  padding: 0;
+}
+
+.dropdown-options li {
+  /* Styles for dropdown list items */
+  padding: 8px 12px;
+  display: flex;
+  align-items: center;
+}
+
+.fa {
+  /* Styles for font-awesome icon */
+  margin-right: 5px;
+  color: green; /* Change the icon color */
+}
